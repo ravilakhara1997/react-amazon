@@ -1,0 +1,51 @@
+let data = [
+    {
+        id:1,
+        image: "/images/shirt.jpg",
+        title: "Casual Shirt",
+        type: "shirt",
+        price: 200,
+        totalquantity: 20,
+    },
+    {
+        id:2,
+        image: "/images/checks.jpg",
+        title: "Checks Shirt",
+        type: "shirt",
+        price: 500,
+        totalquantity: 40,
+    },
+    {
+        id:3,
+        image: "/images/slim.webp",
+        title: "Slim Shirt",
+        type: "shirt",
+        price: 800,
+        totalquantity: 50,
+    },
+    {
+        id:4,
+        image: "/images/pant1.jpg",
+        title: "Casual Pant",
+        type: "pant",
+        price: 400,
+        totalquantity: 50,
+    },
+    {
+        id:5,
+        image: "/images/pant3.jpg",
+        title: "Cargo Pant",
+        type: "pant",
+        price: 1000,
+        totalquantity: 50,
+    },
+    {
+        id:6,
+        image: "/images/pant2.webp",
+        title: "Jeans Pant",
+        type: "pant",
+        price: 800,
+        totalquantity: 50,
+    },
+]
+export default data;

@@ -1,0 +1,52 @@
+#root,html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.subheader{
+    height: 55px;
+    width: 180%;
+    position: sticky;
+    top: 60px;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.781);
+    display: flex;
+}
+/* .all{
+    width: 100px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} */
+.shirt{
+    padding: 5px;
+    margin: 10px;
+    height: 50%;
+    width: 50px;
+    text-decoration: none;
+    /* border-radius: 20%;
+    border: solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.pant{
+    padding: 10px;
+    margin : 10px;
+    height: 60%;
+    width: 70px;
+    text-decoration: none;
+    /* border-radius: 20%;
+    border: solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

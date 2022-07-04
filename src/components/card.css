@@ -1,0 +1,51 @@
+#root,html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.parent{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart{
+    height: 350px;
+    width: 200px;
+    /* background-color: black; */
+    margin: 10px;
+    border: 1px solid brown;
+
+}
+.shirt{
+    width: 100%;
+    height: 60%;
+}
+.shirt img{
+    height: 100%;
+  
+    width: 80%;
+}
+.details{
+    height: 40%;
+    width: 100%;
+}
+.details>button{
+    background-color: yellow;
+    font-size: large;
+}
+.title{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 25px;
+    padding: 2px;
+}
